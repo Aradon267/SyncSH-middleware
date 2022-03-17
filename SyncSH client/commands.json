@@ -1,0 +1,52 @@
+{
+  "request": {
+    "connect": "sshConnectReq",
+    "sendCommand": "sshSendCommand",
+    "download": "sshDownloadReq",
+    "upload": "sshUploadReq",
+    "getOSInfo": "sshGetOSInfoReq",
+    "collectFingerprint": "sshCollectFingerprint",
+    "getInteractiveShell": "sshGetInteractiveShell",
+    "sendInteractiveShellCommand": "sshSendInteractiveShell",
+    "closeInteractiveShell":  "sshCloseInteractiveShell"
+
+  },
+  "response": {
+    "connect": {
+      "success": "sshConnectSuccess",
+      "fail": "sshConnectFail"
+    },
+    "sendCommand": {
+      "success": "sendCommandSuccess",
+      "fail": "sendCommandFail"
+    },
+    "download": {
+      "success": "downloadSuccess",
+      "fail": "downloadFail"
+    },
+    "upload": {
+      "success": "uploadSuccess",
+      "fail": "uploadFail"
+    },
+    "getOSInfo": {
+      "success": "getOSInfoSuccess",
+      "fail": "getOSInfoFail"
+    },
+    "collectFingerprint": {
+      "success": "sshCollectFingerprintSuccess",
+      "fail": "sshCollectFingerprintFail"
+    },
+    "getInteractiveShell": {
+      "success": "sshGetInteractiveShellSuccess",
+      "fail": "sshGetInteractiveShellFail"
+    },
+    "sendInteractiveShellCommand": {
+      "success": "sshSendInteractiveShellSuccess",
+      "fail": "sshSendInteractiveShellFail"
+    },
+    "closeInteractiveShell": {
+      "success": "sshCloseInteractiveShellSuccess",
+      "fail": "sshCloseInteractiveShellFail"
+    }
+  }
+}
